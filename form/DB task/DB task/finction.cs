@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DB_task
 {
-    internal class finction
+    class finction
     {
+        public finction() 
+        {
+
+        }
     }
 }
