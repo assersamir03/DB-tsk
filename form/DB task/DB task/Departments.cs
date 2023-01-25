@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.Logging;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,31 +14,19 @@ namespace DB_task
     public partial class Departments : Form
     {
         Functions Con;
+
+        public object Deplist { get; private set; }
+
         public Departments()
         {
             InitializeComponent();
             Con= new Functions();
-            listerDepartment();
+            ShowDepartments();
         }
 
-        private void listerDepartment()
+        private void ShowDepartments()
         {
-            throw new NotImplementedException();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private Functions GetCon()
-        {
-            return Con;
-        }
-
-        private void listerDepartment(Functions con)
-        {
-            string Query = "select * from Departmenttbl";
+            string Query = "SELECT * FROM Departmenttbl";
             deplist.DataSource = Con.GetData(Query);
         }
         private void addbtn_Click(object sender, EventArgs e)
@@ -51,13 +40,31 @@ namespace DB_task
                 else
                 {
                     string Dep = Depnametb.Text;
-                    string Query = "insert into Departmenttble values('{0}')";
+                    string Query = "insert into Departmenttbl values('{0}')";
+                    Query = string.Format(Query,Depnametb.Text);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Department added");
+                    Depnametb.Text = "";
+
                 }
             }
             catch (Exception EX) 
             {
                 MessageBox.Show(EX.Message);
             }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            login Obj = new login();
+            Obj.Show();
+            this.Hide();
         }
     }
 }

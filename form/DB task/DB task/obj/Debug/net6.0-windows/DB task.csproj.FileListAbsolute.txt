@@ -22,4 +22,9 @@ E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\System.Management.dll
 E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
 E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.csproj.CopyComplete
 E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB_task.Departments.resources
-E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB_task.salaries.resources
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
