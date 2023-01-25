@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DB_task
 {
-    public partial class Departments : Form
+    public partial class salaries : Form
     {
-        public Departments()
+        public salaries()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
