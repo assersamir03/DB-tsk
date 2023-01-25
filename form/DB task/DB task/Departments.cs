@@ -130,5 +130,12 @@ namespace DB_task
                 MessageBox.Show(Ex.Message);
             }
         }
+
+        private void Empbl_Click(object sender, EventArgs e)
+        {
+            Employee Obj= new Employee();
+            Obj.Show();
+            this.Hide();
+        }
     }
 }

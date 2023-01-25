@@ -45,7 +45,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.Empbl = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -247,16 +247,17 @@
             this.pictureBox3.TabIndex = 47;
             this.pictureBox3.TabStop = false;
             // 
-            // label4
+            // Empbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(300, 98);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 21);
-            this.label4.TabIndex = 48;
-            this.label4.Text = "Employee";
+            this.Empbl.AutoSize = true;
+            this.Empbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Empbl.ForeColor = System.Drawing.Color.Teal;
+            this.Empbl.Location = new System.Drawing.Point(300, 98);
+            this.Empbl.Name = "Empbl";
+            this.Empbl.Size = new System.Drawing.Size(86, 21);
+            this.Empbl.TabIndex = 48;
+            this.Empbl.Text = "Employee";
+            this.Empbl.Click += new System.EventHandler(this.Empbl_Click);
             // 
             // label5
             // 
@@ -328,7 +329,7 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.Empbl);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.updatebtn);
@@ -373,7 +374,7 @@
         private Label label1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
-        private Label label4;
+        private Label Empbl;
         private Label label5;
         private PictureBox pictureBox5;
         private Label label8;

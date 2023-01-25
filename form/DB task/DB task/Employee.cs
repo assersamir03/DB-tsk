@@ -13,11 +13,26 @@ namespace DB_task
 {
     public partial class Employee : Form
     {
+        Functions Con;
         public Employee()
         {
             InitializeComponent();
+            Con = new Functions();
+            ShowEmp();
+            GetDepartment();
         }
-
+        private void ShowEmp()
+        {
+            string Query = "SELECT * FROM Employeetbl";
+            Emplist.DataSource = Con.GetData(Query);
+        }
+        private void GetDepartment() 
+        {
+            string Query = "select * from Departmenttbl";
+            DepCb.DislayMember = Con.GetData(Query).Columns["Dep_name"].ToString();
+            DepCb.ValueMember = Con.GetData(Query).Columns["Depid"].ToString();
+            DepCb.Datasource = Con.GetData(Query);
+        }
         private void Employee_Load(object sender, EventArgs e)
         {
 
@@ -128,6 +143,11 @@ namespace DB_task
             login Obj = new login();
             Obj.Show();
             this.Hide();
+        }
+
+        private void Addbtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
