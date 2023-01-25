@@ -129,12 +129,5 @@ namespace DB_task
             Obj.Show();
             this.Hide();
         }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-            Departments Obj = new Departments();
-            Obj.Show();
-            this.Hide();
-        }
     }
 }

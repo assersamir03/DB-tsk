@@ -105,5 +105,30 @@ namespace DB_task
                 Key =Convert.ToInt32(deplist.SelectedRows[0].Cells[0].Value.ToString());
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (Depnametb.Text == "")
+                {
+                    MessageBox.Show("Missing data!");
+                }
+                else
+                {
+                    string Dep = Depnametb.Text;
+                    string Query = "Delete from Departmenttbl where Depid = '{0}' ";
+                    Query = string.Format(Query,Key);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Deleted.");
+                    Depnametb.Text = "";
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
     }
 }

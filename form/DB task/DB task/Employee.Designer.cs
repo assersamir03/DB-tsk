@@ -370,7 +370,6 @@
             this.label11.Size = new System.Drawing.Size(106, 21);
             this.label11.TabIndex = 57;
             this.label11.Text = "Department ";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12
             // 
