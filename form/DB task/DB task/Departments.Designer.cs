@@ -133,7 +133,7 @@
             this.deplist.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.deplist.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.deplist.ThemeStyle.HeaderStyle.Height = 4;
-            this.deplist.ThemeStyle.ReadOnly = false;
+            this.deplist.ThemeStyle.ReadOnly = true;
             this.deplist.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.deplist.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.deplist.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
