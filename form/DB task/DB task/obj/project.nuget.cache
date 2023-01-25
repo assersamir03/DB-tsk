@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lFOm5U8m4csMn4ExkgEsE9OIUxTPMj/RGaedytM24SX5OtNlmd1ws78Um4kzPKzgveKvTWxVaVlM7avqOYxO/g==",
+  "dgSpecHash": "KwTZq5qh4qaO7psJs9wBhKvUgHN1sT3kiuTiQ4Io/gQJc8+rRGlNk62KgZ0GIR+/ryGpX0sp52+8Dy+1nfQZxg==",
   "success": true,
   "projectFilePath": "E:\\DB_task\\form\\DB task\\DB task\\DB task.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\assersami03\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.2\\guna.ui2.winforms.2.0.4.2.nupkg.sha512",
+    "C:\\Users\\assersami03\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\assersami03\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

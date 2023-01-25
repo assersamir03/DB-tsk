@@ -16,5 +16,10 @@ namespace DB_task
         {
             InitializeComponent();
         }
+
+        private void Employee_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
