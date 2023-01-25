@@ -66,5 +66,44 @@ namespace DB_task
             Obj.Show();
             this.Hide();
         }
+
+        private void updatebtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (Depnametb.Text == "")
+                {
+                    MessageBox.Show("Missing data!");
+                }
+                else
+                {
+                    string Dep = Depnametb.Text;
+                    string Query = "Update Departmenttbl set Dep_name = '{0}' where Depid = '{1}' ";
+                    Query = string.Format(Query, Depnametb.Text, Key);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Updated.");
+                    Depnametb.Text = "";
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
+
+        int Key = 0;
+        private void deplist_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Depnametb.Text = deplist.SelectedRows[0].Cells[1].Value.ToString();
+            if (Depnametb.Text == "")
+            {
+                Key = 0;
+            }
+            else
+            {
+                Key =Convert.ToInt32(deplist.SelectedRows[0].Cells[0].Value.ToString());
+            }
+        }
     }
 }

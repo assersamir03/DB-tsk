@@ -73,6 +73,7 @@
             this.updatebtn.TabIndex = 45;
             this.updatebtn.Text = "Update";
             this.updatebtn.UseVisualStyleBackColor = false;
+            this.updatebtn.Click += new System.EventHandler(this.updatebtn_Click);
             // 
             // addbtn
             // 
@@ -140,6 +141,7 @@
             this.deplist.ThemeStyle.RowsStyle.Height = 25;
             this.deplist.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.deplist.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.deplist.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.deplist_CellContentClick);
             // 
             // pictureBox1
             // 
