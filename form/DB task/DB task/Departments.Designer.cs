@@ -49,12 +49,17 @@
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
@@ -65,7 +70,7 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(197, 224);
+            this.button2.Location = new System.Drawing.Point(196, 235);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(148, 37);
             this.button2.TabIndex = 45;
@@ -80,7 +85,7 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(32, 224);
+            this.button1.Location = new System.Drawing.Point(31, 235);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(145, 37);
             this.button1.TabIndex = 44;
@@ -170,7 +175,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 156);
+            this.textBox1.Location = new System.Drawing.Point(31, 167);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(313, 23);
             this.textBox1.TabIndex = 30;
@@ -180,7 +185,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(32, 132);
+            this.label3.Location = new System.Drawing.Point(31, 143);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(149, 21);
             this.label3.TabIndex = 29;
@@ -279,8 +284,40 @@
             this.label6.ForeColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(660, 98);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 21);
+            this.label6.Size = new System.Drawing.Size(58, 21);
             this.label6.TabIndex = 51;
+            this.label6.Text = "Salary";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(734, 90);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(53, 29);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 52;
+            this.pictureBox5.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.ForeColor = System.Drawing.Color.Teal;
+            this.label8.Location = new System.Drawing.Point(793, 98);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(64, 21);
+            this.label8.TabIndex = 53;
+            this.label8.Text = "Logout";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(73, 111);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(53, 29);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 54;
+            this.pictureBox6.TabStop = false;
             // 
             // Departments
             // 
@@ -288,6 +325,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(945, 632);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label5);
@@ -315,6 +355,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -339,5 +381,8 @@
         private Label label5;
         private PictureBox pictureBox4;
         private Label label6;
+        private PictureBox pictureBox5;
+        private Label label8;
+        private PictureBox pictureBox6;
     }
 }

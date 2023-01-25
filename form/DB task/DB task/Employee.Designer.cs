@@ -56,9 +56,21 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -88,7 +100,7 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(307, 109);
+            this.label2.Location = new System.Drawing.Point(486, 171);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(152, 21);
             this.label2.TabIndex = 1;
@@ -329,18 +341,110 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Employee Gender";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.Teal;
+            this.label9.Location = new System.Drawing.Point(811, 96);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(64, 21);
+            this.label9.TabIndex = 61;
+            this.label9.Text = "Logout";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(752, 88);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(53, 29);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 60;
+            this.pictureBox5.TabStop = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.ForeColor = System.Drawing.Color.Teal;
+            this.label10.Location = new System.Drawing.Point(678, 96);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(58, 21);
+            this.label10.TabIndex = 59;
+            this.label10.Text = "Salary";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(619, 88);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(53, 29);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 58;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label11.ForeColor = System.Drawing.Color.Teal;
+            this.label11.Location = new System.Drawing.Point(486, 96);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(106, 21);
+            this.label11.TabIndex = 57;
+            this.label11.Text = "Department ";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label12.ForeColor = System.Drawing.Color.Teal;
+            this.label12.Location = new System.Drawing.Point(318, 96);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(86, 21);
+            this.label12.TabIndex = 56;
+            this.label12.Text = "Employee";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(427, 88);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(53, 29);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 55;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(259, 88);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(53, 29);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 54;
+            this.pictureBox2.TabStop = false;
+            // 
             // Employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(945, 632);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.guna2DateTimePicker2);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.guna2DateTimePicker1);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.guna2DataGridView1);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
@@ -363,6 +467,10 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -390,5 +498,13 @@
         private ComboBox comboBox2;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private Label label4;
+        private Label label9;
+        private PictureBox pictureBox5;
+        private Label label10;
+        private PictureBox pictureBox4;
+        private Label label11;
+        private Label label12;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
     }
 }
