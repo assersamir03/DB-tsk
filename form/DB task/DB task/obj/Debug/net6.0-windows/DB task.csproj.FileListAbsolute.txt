@@ -1,0 +1,19 @@
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.csproj.AssemblyReference.cache
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB_task.Employee.resources
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB_task.login.resources
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB_task.Properties.Resources.resources
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.csproj.GenerateResource.cache
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.GeneratedMSBuildEditorConfig.editorconfig
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.AssemblyInfoInputs.cache
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.AssemblyInfo.cs
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.csproj.CoreCompileInputs.cache
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\DB task.exe
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\DB task.deps.json
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\DB task.runtimeconfig.json
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\DB task.dll
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\DB task.pdb
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.dll
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\refint\DB task.dll
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.pdb
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.genruntimeconfig.cache
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\ref\DB task.dll

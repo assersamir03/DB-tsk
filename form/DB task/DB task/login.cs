@@ -11,5 +11,10 @@ namespace DB_task
         {
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
