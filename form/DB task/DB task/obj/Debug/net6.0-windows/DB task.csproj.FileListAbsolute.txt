@@ -17,3 +17,7 @@ E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\refint\DB task.dll
 E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.pdb
 E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.genruntimeconfig.cache
 E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\ref\DB task.dll
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\Guna.UI2.dll
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\System.Management.dll
+E:\DB_task\form\DB task\DB task\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+E:\DB_task\form\DB task\DB task\obj\Debug\net6.0-windows\DB task.csproj.CopyComplete
