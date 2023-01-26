@@ -194,8 +194,8 @@ namespace DB_task
                     int salary = Convert.ToInt32(Empdailysaltb.Text);
                     string Jdate = JDtb.Value.ToString("yyyy-MM-dd");
                     string DOB = DOBtb.Value.ToString("yyyy-MM-dd");
-                    string Query = "Update Employeetbl set Emp_nam = '{0}', Emp_gen = '{1}', Emp_dep = {2}, Emp_ddb = '{3}', Emp_Jdate = '{4}', Empsal = '{5}' where Empid = '{6}'";
-                    Query = string.Format(Query, name, gender, dep, DOB, Jdate, salary);
+                    string Query = "Update Employeetbl set Emp_name = '{0}', Emp_gen = '{1}', Emp_dep = {2}, Emp_ddb = '{3}', Emp_Jdate = '{4}', Empsal = '{5}' where Empid = '{6}'";
+                    Query = string.Format(Query, name, gender, dep, DOB, Jdate, salary,key);
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Updated!!!UWU.");
