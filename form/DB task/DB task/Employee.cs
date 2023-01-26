@@ -147,7 +147,36 @@ namespace DB_task
 
         private void Addbtn_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                if (Empnametb.Text == "" || Gencp.SelectedIndex == -1 || Depcp.SelectedIndex == -1 || Empdailysaltb.Text == "")
+                {
+                    MessageBox.Show("Missing data!");
+                }
+                else
+                {
+                    string name = Empnametb.Text;
+                    string gender = Gencp.SelectedItem.ToString();
+                    int dep = Convert.ToInt32(Depcp.SelectedValue.ToString());
+                    int salary = Convert.ToInt32(Empdailysaltb.Text);
+                    string Jdate = JDtb.Value.ToString("yyyy-MM-dd");
+                    string DOB = DOBtb.Value.ToString("yyyy-MM-dd");
+                    string Query = "Insert into EmployeeTable values('{0}','{1}',{2},'{3}','{4}','{5}')";
+                    Query = string.Format(Query, name, gender, dep, DOB, Jdate, salary);
+                    Con.SetData(Query);
+                    ShowEmp();
+                    MessageBox.Show("Added.");
+                    EmpName.Text = "";
+                    EmpGen.SelectedIndex = -1;
+                    EmpDep.SelectedIndex = -1;
+                    EmpSal.Text = "";
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
         }
+    }
     }
 }
