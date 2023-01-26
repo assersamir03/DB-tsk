@@ -235,6 +235,29 @@ namespace DB_task
         {
             Application.Exit();
         }
+        int Key = 0;
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+              
+                    string Query = "Delete from Employeetbl where Empid = '{0}' ";
+                    Query = string.Format(Query, Key);
+                    Con.SetData(Query);
+                    ShowEmp();
+                    MessageBox.Show("Deleted.");
+                    Empnametb.Text = "";
+                    Gencp.SelectedIndex = -1;
+                    Depcp.SelectedIndex = -1;
+                    Empdailysaltb.Text = "";
+
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        
+    }
     }
 }
 
