@@ -165,7 +165,7 @@ namespace DB_task
                     Query = string.Format(Query, name, gender, dep, DOB, Jdate, salary);
                     Con.SetData(Query);
                     ShowEmp();
-                    MessageBox.Show("Added.");
+                    MessageBox.Show("Added!!!!!UWU.");
                     Empnametb.Text = "";
                     Gencp.SelectedIndex = -1;
                     Gencp.SelectedIndex = -1;
@@ -177,6 +177,44 @@ namespace DB_task
                 MessageBox.Show(Ex.Message);
             }
         }
+
+        private void Updatebtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (Empnametb.Text == "" || Gencp.SelectedIndex == -1 || Depcp.SelectedIndex == -1 || Empdailysaltb.Text == "")
+                {
+                    MessageBox.Show("Missing data!");
+                }
+                else
+                {
+                    string name = Empnametb.Text;
+                    string gender = Gencp.SelectedItem.ToString();
+                    int dep = Convert.ToInt32(Depcp.SelectedValue.ToString());
+                    int salary = Convert.ToInt32(Empdailysaltb.Text);
+                    string Jdate = JDtb.Value.ToString("yyyy-MM-dd");
+                    string DOB = DOBtb.Value.ToString("yyyy-MM-dd");
+                    string Query = "Update Employeetbl set Emp_nam = '{0}', Emp_gen = '{1}', Emp_dep = {2}, Emp_ddb = '{3}', Emp_Jdate = '{4}', Empsal = '{5}' where Empid = '{6}'";
+                    Query = string.Format(Query, name, gender, dep, DOB, Jdate, salary);
+                    Con.SetData(Query);
+                    ShowEmp();
+                    MessageBox.Show("Updated!!!UWU.");
+                    Empnametb.Text = "";
+                    Gencp.SelectedIndex = -1;
+                    Gencp.SelectedIndex = -1;
+                    Empdailysaltb.Text = "";
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
+
+        private void Emplist_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
-    }
+}
 
