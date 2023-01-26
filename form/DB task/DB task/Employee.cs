@@ -230,6 +230,7 @@ namespace DB_task
             Obj.Show();
             this.Hide();
         }
+
     }
 }
 
