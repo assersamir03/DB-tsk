@@ -29,9 +29,9 @@ namespace DB_task
         private void GetDepartment() 
         {
             string Query = "select * from Departmenttbl";
-            DepCb.DislayMember = Con.GetData(Query).Columns["Dep_name"].ToString();
-            DepCb.ValueMember = Con.GetData(Query).Columns["Depid"].ToString();
-            DepCb.Datasource = Con.GetData(Query);
+            Depcp.DisplayMember = Con.GetData(Query).Columns["Dep_name"].ToString();
+            Depcp.ValueMember = Con.GetData(Query).Columns["Depid"].ToString();
+            Depcp.DataSource = Con.GetData(Query);
         }
         private void Employee_Load(object sender, EventArgs e)
         {
