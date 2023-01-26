@@ -210,10 +210,18 @@ namespace DB_task
                 MessageBox.Show(Ex.Message);
             }
         }
-
+        int key = 0;
         private void Emplist_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            Empnametb.Text = Emplist.SelectedRows[0].Cells[1].Value.ToString();
+            if (Empnametb.Text == "")
+            {
+                key = 0;
+            }
+            else
+            {
+                key = Convert.ToInt32(Emplist.SelectedRows[0].Cells[0].Value.ToString());
+            }
         }
     }
 }
