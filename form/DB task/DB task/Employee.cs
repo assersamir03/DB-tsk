@@ -161,15 +161,15 @@ namespace DB_task
                     int salary = Convert.ToInt32(Empdailysaltb.Text);
                     string Jdate = JDtb.Value.ToString("yyyy-MM-dd");
                     string DOB = DOBtb.Value.ToString("yyyy-MM-dd");
-                    string Query = "Insert into EmployeeTable values('{0}','{1}',{2},'{3}','{4}','{5}')";
+                    string Query = "Insert into Employeetbl values('{0}','{1}',{2},'{3}','{4}','{5}')";
                     Query = string.Format(Query, name, gender, dep, DOB, Jdate, salary);
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Added.");
-                    EmpName.Text = "";
-                    EmpGen.SelectedIndex = -1;
-                    EmpDep.SelectedIndex = -1;
-                    EmpSal.Text = "";
+                    Empnametb.Text = "";
+                    Gencp.SelectedIndex = -1;
+                    Gencp.SelectedIndex = -1;
+                    Empdailysaltb.Text = "";
                 }
             }
             catch (Exception Ex)
@@ -179,4 +179,4 @@ namespace DB_task
         }
     }
     }
-}
+
