@@ -223,6 +223,13 @@ namespace DB_task
                 key = Convert.ToInt32(Emplist.SelectedRows[0].Cells[0].Value.ToString());
             }
         }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Departments Obj = new Departments();
+            Obj.Show();
+            this.Hide();
+        }
     }
 }
 
